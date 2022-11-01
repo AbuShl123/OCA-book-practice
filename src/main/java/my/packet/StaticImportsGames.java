@@ -1,7 +1,10 @@
 package my.packet;
 
-import static OCA_book_practice.StaticB.G;
-import static OCA_book_practice.StaticB.mgDif;
+import static my.packet.StaticA.mgDif;
+import static my.packet.StaticB.mgDif;
+import static my.packet.StaticB.G;
+import static my.packet.StaticB.mg;
+
 import static java.util.Arrays.asList;
 import static java.util.Arrays.sort;
 import static java.util.Collections.sort;
