@@ -1,4 +1,4 @@
-package my.packet;
+package my.packet.basicClasses;
 
 public class ForLoopLabels {
     public static void main(String[] args) {

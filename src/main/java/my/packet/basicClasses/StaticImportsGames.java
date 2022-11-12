@@ -1,9 +1,8 @@
-package my.packet;
+package my.packet.basicClasses;
 
-import static my.packet.StaticA.mgDif;
-import static my.packet.StaticB.mgDif;
-import static my.packet.StaticB.G;
-import static my.packet.StaticB.mg;
+import static my.packet.basicClasses.StaticA.mgDif;
+import static my.packet.basicClasses.StaticB.mgDif;
+import static my.packet.basicClasses.StaticB.G;
 
 import static java.util.Arrays.asList;
 import static java.util.Arrays.sort;

@@ -1,4 +1,4 @@
-package my.packet;
+package my.packet.basicClasses;
 
 import java.util.Scanner;
 

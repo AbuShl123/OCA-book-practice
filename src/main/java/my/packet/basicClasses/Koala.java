@@ -1,4 +1,4 @@
-package my.packet;
+package my.packet.basicClasses;
 
 public class Koala {
     static int count = 12;

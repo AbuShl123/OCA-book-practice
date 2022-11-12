@@ -1,4 +1,4 @@
-package my.packet;
+package my.packet.basicClasses;
 
 public class StaticA {
     static final double G = 9.8;

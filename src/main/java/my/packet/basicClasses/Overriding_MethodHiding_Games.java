@@ -1,4 +1,4 @@
-package my.packet;
+package my.packet.basicClasses;
 // situation with method isBiden() hiding :
 class Marsupial {
     public static boolean isBiped() {

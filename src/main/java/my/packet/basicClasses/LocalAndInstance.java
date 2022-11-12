@@ -1,4 +1,4 @@
-package my.packet;
+package my.packet.basicClasses;
 
 public class LocalAndInstance {
     int age; // instance variable (instance field) --> 0

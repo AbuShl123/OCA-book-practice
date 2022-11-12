@@ -1,4 +1,4 @@
-package my.packet;
+package my.packet.basicClasses;
 
 public class FinalKeywords {
 //    private final static String name = "name";
