@@ -42,6 +42,14 @@ class Cow extends Herbivorous {
     }
 }
 
+class Parent {
+    public static void tun() {}
+}
+
+class Child extends Parent{
+   
+}
+
 public class Overriding_MethodHiding_Games {
     public static void main(String[] args) {
         Kangaroo obj = new Kangaroo();

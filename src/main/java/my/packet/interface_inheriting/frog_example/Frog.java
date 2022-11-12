@@ -7,5 +7,7 @@ public class Frog implements CanHop{
         Frog frog = new TurtleFrog();
 
         CanHop canHop = new TurtleFrog();
+
+        Object o = canHop;
     }
 }
