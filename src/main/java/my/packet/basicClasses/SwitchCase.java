@@ -16,6 +16,20 @@ public class SwitchCase {
 //              System.out.println("case 2");
 //              break;;
         }
+
+        System.out.println("=======================");
+        final char a = 'A', d= 'D';
+        char grade = 'B';
+        switch (grade) {
+            case a:
+            case 'B':
+                System.out.print("great");
+            case 'C':
+                System.out.print("good"); break;
+            case d:
+            case 'F':
+                System.out.print("not good");
+        }
     }
 
     public int f(String firstName, final  String lastName) {

@@ -24,5 +24,7 @@ public class TrickyOperators {
         } else {
             System.out.println("xx = " + xx + ", yy = " + yy);
         }
+
+        System.out.println(1%2);
     }
 }
