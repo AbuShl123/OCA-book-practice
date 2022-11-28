@@ -21,9 +21,10 @@ public class Formatters {
         System.out.println(dateTime.format(DateTimeFormatter.ISO_LOCAL_DATE_TIME));
 
         System.out.println("---------------------");
-        DateTimeFormatter formatter = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT);
-//        System.out.println(formatter.format(date)); does not compile because formatter is localizedDateTime
-        System.out.println(formatter.format(dateTime));
+        DateTimeFormatter formatter = DateTimeFormatter.ofLocalizedDate(FormatStyle.SHORT);
+        System.out.println(formatter.format(date));
+        System.out.println(formatter.format(dateTime)); //although it is only for dates it can format DateTime object
+//        System.out.println(time.format(formatter)); this does not compile, because it's time and has no date
         formatter = DateTimeFormatter.ISO_LOCAL_DATE_TIME;
         System.out.println(formatter.format(dateTime));
 //        System.out.println(date.format(formatter)); does not compile because formatter is only for DateTime
