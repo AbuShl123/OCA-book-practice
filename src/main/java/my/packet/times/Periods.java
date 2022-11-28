@@ -18,5 +18,8 @@ public class Periods {
 
         Period y_m_d = Period.of(1, 2, 3);
         System.out.println("after one year, two months and three days: " + date.plus(y_m_d));
+
+        time = time.plusHours(123);
+        System.out.println(time);
     }
 }
