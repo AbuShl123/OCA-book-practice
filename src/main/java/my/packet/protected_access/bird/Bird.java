@@ -5,4 +5,10 @@ public class Bird {
     protected void floatInWater() {
         System.out.println(text);
     }
+
+    private void helpOtherBird() {
+        Bird otherBird = new Bird();
+        otherBird.floatInWater();
+        System.out.println(otherBird.text);
+    }
 }
