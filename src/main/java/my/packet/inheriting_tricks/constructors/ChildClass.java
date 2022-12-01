@@ -1,4 +1,4 @@
-package my.packet.contructors.with_inheriting;
+package my.packet.inheriting_tricks.constructors;
 
 public class ChildClass extends ParentClass {
 
