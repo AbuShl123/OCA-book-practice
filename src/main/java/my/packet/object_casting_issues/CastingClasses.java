@@ -4,7 +4,7 @@ import my.packet.object_casting_issues.classes.Animal;
 import my.packet.object_casting_issues.classes.Fish;
 import my.packet.object_casting_issues.classes.Rabbit;
 
-public class CasingClasses {
+public class CastingClasses {
     public static void main(String[] args) {
         Fish fish = new Fish();
 
